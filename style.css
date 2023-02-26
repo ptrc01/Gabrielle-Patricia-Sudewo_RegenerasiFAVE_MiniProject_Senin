@@ -1,0 +1,104 @@
+#left{
+    position: absolute;
+    width: 504px;
+    height: 832px;
+    left: 0px;
+    top: 0px;
+
+    background: #E6CC00;
+}
+
+.mail{
+    position: absolute;
+    width: 297px;
+    height: 312px;
+    left: 104px;
+    top: 125px;
+}
+
+.intro{
+    position: absolute;
+    width: 382px;
+    height: 209px;
+    left: 61px;
+    top: 435px;
+
+    font-family: 'Poppins';
+    font-size: 32px;
+    text-align: center;
+
+    color: #343434;
+}
+
+#right{
+    font-family: 'Poppins';
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 589px;
+    height: 730px;
+    left: 50%;
+
+ 
+
+    color: #343434;
+}
+
+#right h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+#right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 100%;
+
+}
+
+#right form label{
+    color: #343434;
+    font-size: 24px;
+
+}
+
+#right form input{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px;
+    width: 100%;
+}
+
+#right form textarea{
+    font-family: 'Poppins';
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px;
+    width: 100%;
+    
+}
+
+#right form button{
+    font-size: 32px;
+    border-radius: 10px;
+    
+    width: 221px;
+    height: 54px;
+
+    background: #E6CC00;
+    border-radius: 50px;
+    border: none;
+
+    
+}
+
+#name, #email, #mess{
+    color: red;
+    font-family: 'Poppins';
+    font-size: 24px;
+}
